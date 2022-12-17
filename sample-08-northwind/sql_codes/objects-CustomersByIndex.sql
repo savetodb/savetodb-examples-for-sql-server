@@ -1,0 +1,1 @@
+SELECT * FROM s08.Customers c WHERE SUBSTRING(CompanyName, 1, 1) = @Index

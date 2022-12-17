@@ -1,0 +1,7 @@
+master-install.sql ?
+savetodb-framework-install.sql
+savetodb-framework-extension-install.sql ?
+savetodb-developer-framework-install.sql ?
+savetodb-administrator-framework-install.sql ?
+application-install.sql
+application-grants.sql [master-install.sql]

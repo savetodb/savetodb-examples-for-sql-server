@@ -1,0 +1,1 @@
+SELECT Photo FROM s08.Employees WHERE EmployeeID = @EmployeeID

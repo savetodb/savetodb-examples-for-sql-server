@@ -1,0 +1,6 @@
+- application-remove.sql
+- savetodb-administrator-framework-remove.sql ?
+- savetodb-developer-framework-remove.sql ?
+- savetodb-framework-extension-remove.sql ?
+- savetodb-framework-remove.sql ?
+- master-remove.sql ?

@@ -1,0 +1,13 @@
+s08.Categories
+s08.Customers
+s08.Employees
+s08.EmployeeTerritories
+s08.OrderDetails
+s08.Orders
+s08.Products
+s08.Region
+s08.Shippers
+s08.Suppliers
+s08.Territories
+s08.viewEmployees
+s08.viewSales

@@ -1,0 +1,9 @@
+s10.Accounts
+s10.Companies
+s10.Items
+s10.Payments
+s10.viewPayments
+s10.uspPayments
+s10.uspPayments_delete
+s10.uspPayments_insert
+s10.uspPayments_update

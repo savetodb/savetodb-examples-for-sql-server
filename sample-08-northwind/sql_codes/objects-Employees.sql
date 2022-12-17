@@ -1,0 +1,1 @@
+SELECT EmployeeID, FirstName, LastName, Title, City, Country FROM s08.Employees

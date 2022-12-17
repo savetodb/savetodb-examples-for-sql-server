@@ -1,0 +1,16 @@
+s17.accounts
+s17.categories
+s17.entities
+s17.products
+s17.regions
+s17.requests
+s17.subaccounts
+s17.times
+s17.usp_data
+s17.usp_request
+s17.usp_request_delete
+s17.usp_request_insert
+s17.usp_request_update
+s17.usp_requests
+s17.xl_actions_clean_requests
+s17.xl_actions_clone_requests
