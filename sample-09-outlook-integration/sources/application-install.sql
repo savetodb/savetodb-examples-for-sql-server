@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 09 - Outlook Integration
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2018-2022 Gartle LLC
+-- Copyright 2018-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -136,7 +136,7 @@ SET IDENTITY_INSERT [s09].[Appointments] OFF;
 GO
 
 SET IDENTITY_INSERT [s09].[Emails] ON;
-INSERT INTO [s09].[Emails] ([ID], [Subject], [Body], [Attachments], [Categories], [Recipients], [SentOnBehalfOfName]) VALUES (1, N'Test email', N'Test body', N'D:\outlook-integration-example.xlsx', 1, N'john.doe@savetodb.com', N'');
+INSERT INTO [s09].[Emails] ([ID], [Subject], [Body], [Attachments], [Categories], [Recipients], [SentOnBehalfOfName]) VALUES (1, N'Test email', N'Test body', N'D:\outlook-integration-example.xlsx', 1, N'john.doe@savetodb.com', NULL);
 SET IDENTITY_INSERT [s09].[Emails] OFF;
 GO
 

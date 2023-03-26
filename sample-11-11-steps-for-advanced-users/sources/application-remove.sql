@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 11 - 11 Steps for Advanced Users
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2019-2022 Sergey Vaselenko
+-- Copyright 2019-2023 Sergey Vaselenko
 --
 -- License: MIT
 -- =============================================

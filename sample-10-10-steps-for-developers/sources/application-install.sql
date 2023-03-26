@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 10 - 10 Steps for Developers
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2019-2022 Sergey Vaselenko
+-- Copyright 2019-2023 Sergey Vaselenko
 --
 -- License: MIT
 --
@@ -219,27 +219,27 @@ SET IDENTITY_INSERT [s10].[Items] OFF;
 GO
 
 SET IDENTITY_INSERT [s10].[Payments] ON;
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (1, '20220110 00:00:00.000', 200000, 1, 3, 6, N'');
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (2, '20220110 00:00:00.000', -50000, 1, 1, 5, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (3, '20220131 00:00:00.000', -85000, 1, 2, NULL, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (4, '20220131 00:00:00.000', -15000, 1, 4, 4, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (5, '20220131 00:00:00.000', -15000, 1, 4, 7, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (6, '20220210 00:00:00.000', 300000, 1, 3, 6, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (7, '20220210 00:00:00.000', 100000, 1, 3, 1, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (8, '20220210 00:00:00.000', -50000, 1, 1, 8, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (9, '20220210 00:00:00.000', -100000, 1, 1, 5, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (10, '20220228 00:00:00.000', -85000, 1, 2, NULL, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (11, '20220228 00:00:00.000', -15000, 1, 4, 4, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (12, '20220228 00:00:00.000', -15000, 1, 4, 7, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (13, '20220310 00:00:00.000', 300000, 1, 3, 6, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (14, '20220310 00:00:00.000', 200000, 1, 3, 1, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (15, '20220310 00:00:00.000', 100000, 1, 3, 2, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (16, '20220315 00:00:00.000', -100000, 1, 4, 3, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (17, '20220331 00:00:00.000', -170000, 1, 2, NULL, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (18, '20220331 00:00:00.000', -30000, 1, 4, 4, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (19, '20220331 00:00:00.000', -30000, 1, 4, 7, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (20, '20220331 00:00:00.000', -50000, 1, 1, 8, NULL);
-INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (21, '20220331 00:00:00.000', -100000, 1, 1, 5, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (1, '20230110 00:00:00.000', 200000, 1, 3, 6, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (2, '20230110 00:00:00.000', -50000, 1, 1, 5, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (3, '20230131 00:00:00.000', -85000, 1, 2, NULL, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (4, '20230131 00:00:00.000', -15000, 1, 4, 4, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (5, '20230131 00:00:00.000', -15000, 1, 4, 7, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (6, '20230210 00:00:00.000', 300000, 1, 3, 6, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (7, '20230210 00:00:00.000', 100000, 1, 3, 1, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (8, '20230210 00:00:00.000', -50000, 1, 1, 8, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (9, '20230210 00:00:00.000', -100000, 1, 1, 5, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (10, '20230228 00:00:00.000', -85000, 1, 2, NULL, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (11, '20230228 00:00:00.000', -15000, 1, 4, 4, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (12, '20230228 00:00:00.000', -15000, 1, 4, 7, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (13, '20230310 00:00:00.000', 300000, 1, 3, 6, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (14, '20230310 00:00:00.000', 200000, 1, 3, 1, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (15, '20230310 00:00:00.000', 100000, 1, 3, 2, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (16, '20230315 00:00:00.000', -100000, 1, 4, 3, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (17, '20230331 00:00:00.000', -170000, 1, 2, NULL, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (18, '20230331 00:00:00.000', -30000, 1, 4, 4, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (19, '20230331 00:00:00.000', -30000, 1, 4, 7, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (20, '20230331 00:00:00.000', -50000, 1, 1, 8, NULL);
+INSERT INTO [s10].[Payments] ([ID], [Date], [Amount], [AccountID], [ItemID], [CompanyID], [Comment]) VALUES (21, '20230331 00:00:00.000', -100000, 1, 1, 5, NULL);
 SET IDENTITY_INSERT [s10].[Payments] OFF;
 GO
 
@@ -340,10 +340,10 @@ INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HAN
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's10', N'viewPayments', N'ItemID', N'ValidationList', N's10', N'Items', N'TABLE', N'ID,Name', NULL, NULL, NULL);
 GO
 
-INSERT INTO xls.objects (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES (N's10', N'uspPayments', N'PROCEDURE', N'', N's10.uspPayments_insert', N's10.uspPayments_update', N's10.uspPayments_delete');
+INSERT INTO xls.objects (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES (N's10', N'uspPayments', N'PROCEDURE', NULL, N's10.uspPayments_insert', N's10.uspPayments_update', N's10.uspPayments_delete');
 GO
 
-INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's10', N'Accounts', NULL, N'en', N'Accounts', N'', N'');
+INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's10', N'Accounts', NULL, N'en', N'Accounts', NULL, NULL);
 INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's10', N'Companies', NULL, N'en', N'Companies', NULL, NULL);
 INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's10', N'Items', NULL, N'en', N'Items', NULL, NULL);
 INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's10', N'Payments', NULL, N'en', N'Payments', NULL, NULL);

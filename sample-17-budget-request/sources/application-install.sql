@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 17 - Budget Request
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2019-2022 Gartle LLC
+-- Copyright 2019-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -909,14 +909,14 @@ SET IDENTITY_INSERT [s17].[subaccounts] OFF;
 GO
 
 SET IDENTITY_INSERT [s17].[times] ON;
-INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (1, N'2021', N'2021', 1);
-INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (2, N'2022', N'2022', 2);
-INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (3, N'2023', N'2023', 3);
+INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (1, N'2022', N'2022', 1);
+INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (2, N'2023', N'2023', 2);
+INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (3, N'2024', N'2024', 3);
 SET IDENTITY_INSERT [s17].[times] OFF;
 GO
 
 SET IDENTITY_INSERT [s17].[requests] ON;
-INSERT INTO [s17].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (1, 1, 1, 1, 2, 1, N'Revenue', NULL, NULL, NULL, NULL, 7200000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, N'{"01":"=SUM(R[1]C:R[3]C)","02":"=SUM(R[1]C:R[3]C)","03":"=SUM(R[1]C:R[3]C)","04":"=SUM(R[1]C:R[3]C)","05":"=SUM(R[1]C:R[3]C)","06":"=SUM(R[1]C:R[3]C)","07":"=SUM(R[1]C:R[3]C)","08":"=SUM(R[1]C:R[3]C)","09":"=SUM(R[1]C:R[3]C)","10":"=SUM(R[1]C:R[3]C)","11":"=SUM(R[1]C:R[3]C)","12":"=SUM(R[1]C:R[3]C)"}', N'', '20210807 18:55:54.000');
+INSERT INTO [s17].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (1, 1, 1, 1, 2, 1, N'Revenue', NULL, NULL, NULL, NULL, 7200000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, 600000, N'{"01":"=SUM(R[1]C:R[3]C)","02":"=SUM(R[1]C:R[3]C)","03":"=SUM(R[1]C:R[3]C)","04":"=SUM(R[1]C:R[3]C)","05":"=SUM(R[1]C:R[3]C)","06":"=SUM(R[1]C:R[3]C)","07":"=SUM(R[1]C:R[3]C)","08":"=SUM(R[1]C:R[3]C)","09":"=SUM(R[1]C:R[3]C)","10":"=SUM(R[1]C:R[3]C)","11":"=SUM(R[1]C:R[3]C)","12":"=SUM(R[1]C:R[3]C)"}', NULL, '20210807 18:55:54.000');
 INSERT INTO [s17].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (2, 1, 1, 1, 3, NULL, NULL, 1, 1, 1, 1, 3600000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, N'{"02":"=[@01]","03":"=[@02]","04":"=[@03]","05":"=[@04]","06":"=[@05]","07":"=[@06]","08":"=[@07]","09":"=[@08]","10":"=[@09]","11":"=[@10]","12":"=[@11]"}', NULL, '20210807 18:55:54.000');
 INSERT INTO [s17].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (3, 1, 1, 1, 4, NULL, NULL, 1, 2, 2, 1, 2400000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, N'{"02":"=[@01]","03":"=[@02]","04":"=[@03]","05":"=[@04]","06":"=[@05]","07":"=[@06]","08":"=[@07]","09":"=[@08]","10":"=[@09]","11":"=[@10]","12":"=[@11]"}', NULL, '20210807 18:55:54.000');
 INSERT INTO [s17].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (4, 1, 1, 1, 5, NULL, NULL, 1, 3, 1, 2, 1200000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, N'{"02":"=[@01]","03":"=[@02]","04":"=[@03]","05":"=[@04]","06":"=[@05]","07":"=[@06]","08":"=[@07]","09":"=[@08]","10":"=[@09]","11":"=[@10]","12":"=[@11]"}', NULL, '20210807 18:55:54.000');

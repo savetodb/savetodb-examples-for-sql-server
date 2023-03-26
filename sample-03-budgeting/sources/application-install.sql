@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 03 - Budgeting Example
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2019-2022 Gartle LLC
+-- Copyright 2019-2023 Gartle LLC
 --
 -- License: MIT
 --
@@ -1213,9 +1213,9 @@ SET IDENTITY_INSERT [s03].[members] ON;
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (1, 3, N'BUDGET', N'Budget');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (2, 3, N'ACTUAL', N'Actual');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (3, 3, N'FORECAST', N'Forecast');
-INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (4, 2, N'2021', N'2021');
-INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (5, 2, N'2022', N'2022');
-INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (6, 2, N'2023', N'2023');
+INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (4, 2, N'2022', N'2022');
+INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (5, 2, N'2023', N'2023');
+INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (6, 2, N'2024', N'2024');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (7, 1, N'100', N'Revenue');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (8, 1, N'200', N'Expenses');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (9, 1, N'300', N'Payroll');
@@ -1254,7 +1254,7 @@ INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (41, 6
 SET IDENTITY_INSERT [s03].[members] OFF;
 GO
 
-INSERT INTO [s03].[reports] ([category_id], [time_id], [row_index], [row_id], [report], [row_level], [row_format], [zero], [hide], [section], [account], [code1], [code2], [data_key], [data_index], [code], [name], [data00], [data01], [data02], [data03], [data04], [data05], [data06], [data07], [data08], [data09], [data10], [data11], [data12], [transaction_start_time]) VALUES (1, 4, 1, 10000, 1, -3, 0, 1, 1, NULL, NULL, NULL, N'', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20210807 16:06:30.000');
+INSERT INTO [s03].[reports] ([category_id], [time_id], [row_index], [row_id], [report], [row_level], [row_format], [zero], [hide], [section], [account], [code1], [code2], [data_key], [data_index], [code], [name], [data00], [data01], [data02], [data03], [data04], [data05], [data06], [data07], [data08], [data09], [data10], [data11], [data12], [transaction_start_time]) VALUES (1, 4, 1, 10000, 1, -3, 0, 1, 1, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20210807 16:06:30.000');
 INSERT INTO [s03].[reports] ([category_id], [time_id], [row_index], [row_id], [report], [row_level], [row_format], [zero], [hide], [section], [account], [code1], [code2], [data_key], [data_index], [code], [name], [data00], [data01], [data02], [data03], [data04], [data05], [data06], [data07], [data08], [data09], [data10], [data11], [data12], [transaction_start_time]) VALUES (1, 4, 2, 10010, 1, -2, 0, 1, 1, NULL, NULL, NULL, NULL, NULL, 0, NULL, N'Revenue', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20210807 16:06:30.000');
 INSERT INTO [s03].[reports] ([category_id], [time_id], [row_index], [row_id], [report], [row_level], [row_format], [zero], [hide], [section], [account], [code1], [code2], [data_key], [data_index], [code], [name], [data00], [data01], [data02], [data03], [data04], [data05], [data06], [data07], [data08], [data09], [data10], [data11], [data12], [transaction_start_time]) VALUES (1, 4, 3, 10020, 1, -1, 0, 1, 1, NULL, NULL, NULL, NULL, NULL, 0, N'Code', N'Name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20210807 16:06:30.000');
 INSERT INTO [s03].[reports] ([category_id], [time_id], [row_index], [row_id], [report], [row_level], [row_format], [zero], [hide], [section], [account], [code1], [code2], [data_key], [data_index], [code], [name], [data00], [data01], [data02], [data03], [data04], [data05], [data06], [data07], [data08], [data09], [data10], [data11], [data12], [transaction_start_time]) VALUES (1, 4, 4, 10030, 1, 0, 0, 1, 1, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20210807 16:06:30.000');
@@ -1969,7 +1969,7 @@ INSERT INTO [s03].[reports] ([category_id], [time_id], [row_index], [row_id], [r
 GO
 
 SET IDENTITY_INSERT [s03].[requests] ON;
-INSERT INTO [s03].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (1, 11, 1, 5, 2, 1, N'Revenue', NULL, NULL, NULL, NULL, 10800000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, N'{"01":"=SUM(R[1]C:R[3]C)","02":"=SUM(R[1]C:R[3]C)","03":"=SUM(R[1]C:R[3]C)","04":"=SUM(R[1]C:R[3]C)","05":"=SUM(R[1]C:R[3]C)","06":"=SUM(R[1]C:R[3]C)","07":"=SUM(R[1]C:R[3]C)","08":"=SUM(R[1]C:R[3]C)","09":"=SUM(R[1]C:R[3]C)","10":"=SUM(R[1]C:R[3]C)","11":"=SUM(R[1]C:R[3]C)","12":"=SUM(R[1]C:R[3]C)"}', N'', '20210807 15:40:24.000');
+INSERT INTO [s03].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (1, 11, 1, 5, 2, 1, N'Revenue', NULL, NULL, NULL, NULL, 10800000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, 900000, N'{"01":"=SUM(R[1]C:R[3]C)","02":"=SUM(R[1]C:R[3]C)","03":"=SUM(R[1]C:R[3]C)","04":"=SUM(R[1]C:R[3]C)","05":"=SUM(R[1]C:R[3]C)","06":"=SUM(R[1]C:R[3]C)","07":"=SUM(R[1]C:R[3]C)","08":"=SUM(R[1]C:R[3]C)","09":"=SUM(R[1]C:R[3]C)","10":"=SUM(R[1]C:R[3]C)","11":"=SUM(R[1]C:R[3]C)","12":"=SUM(R[1]C:R[3]C)"}', NULL, '20210807 15:40:24.000');
 INSERT INTO [s03].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (2, 11, 1, 5, 3, NULL, NULL, 7, 20, 37, 15, 4800000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, N'{"02":"=[@01]","03":"=[@02]","04":"=[@03]","05":"=[@04]","06":"=[@05]","07":"=[@06]","08":"=[@07]","09":"=[@08]","10":"=[@09]","11":"=[@10]","12":"=[@11]"}', NULL, '20210807 15:40:24.000');
 INSERT INTO [s03].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (3, 11, 1, 5, 4, NULL, NULL, 7, 21, 38, 15, 3600000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, 300000, N'{"02":"=[@01]","03":"=[@02]","04":"=[@03]","05":"=[@04]","06":"=[@05]","07":"=[@06]","08":"=[@07]","09":"=[@08]","10":"=[@09]","11":"=[@10]","12":"=[@11]"}', NULL, '20210807 15:40:24.000');
 INSERT INTO [s03].[requests] ([id], [entity_id], [category_id], [time_id], [row_index], [row_format], [comment], [account_id], [subaccount_id], [product_id], [region_id], [total], [01], [02], [03], [04], [05], [06], [07], [08], [09], [10], [11], [12], [row_formulas], [row_comments], [transaction_start_time]) VALUES (4, 11, 1, 5, 5, NULL, NULL, 7, 22, 37, 16, 2400000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, 200000, N'{"02":"=[@01]","03":"=[@02]","04":"=[@03]","05":"=[@04]","06":"=[@05]","07":"=[@06]","08":"=[@07]","09":"=[@08]","10":"=[@09]","11":"=[@10]","12":"=[@11]"}', NULL, '20210807 15:40:24.000');

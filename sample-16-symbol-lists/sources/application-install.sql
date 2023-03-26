@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 16 - Symbol lists
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2019-2022 Gartle LLC
+-- Copyright 2019-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -499,6 +499,7 @@ INSERT INTO s16.symbols (id, symbol, exchange_id, symbol_type_id, is_active) VAL
 SET IDENTITY_INSERT s16.symbols OFF;
 GO
 
+INSERT INTO s16.list_symbols (list_id, symbol_id) VALUES (2, 1);
 INSERT INTO s16.list_symbols (list_id, symbol_id) VALUES (2, 2);
 INSERT INTO s16.list_symbols (list_id, symbol_id) VALUES (2, 3);
 INSERT INTO s16.list_symbols (list_id, symbol_id) VALUES (5, 4);

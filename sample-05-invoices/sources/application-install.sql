@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 05 - Invoices
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2018-2022 Gartle LLC
+-- Copyright 2018-2023 Gartle LLC
 --
 -- License: MIT
 --
@@ -1479,9 +1479,9 @@ SET IDENTITY_INSERT s05.products OFF;
 GO
 
 SET IDENTITY_INSERT s05.orders ON;
-INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (1, '20200221', N'20022101', 1, 2, '20200323', NULL, NULL);
-INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (2, '20200221', N'20022102', 1, 2, '20200323', NULL, NULL);
-INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (3, '20200221', N'20022103', 1, 1, '20200323', NULL, NULL);
+INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (1, '20230221', N'23022101', 1, 2, '20230323', NULL, NULL);
+INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (2, '20230221', N'23022102', 1, 2, '20230323', NULL, NULL);
+INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (3, '20230221', N'23022103', 1, 1, '20230323', NULL, NULL);
 SET IDENTITY_INSERT s05.orders OFF;
 GO
 
@@ -1598,10 +1598,10 @@ INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HAN
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's05', N'view_orders', N'seller_id', N'ValidationList', N's05', N'sellers', N'TABLE', N'id, code', NULL, NULL, NULL);
 GO
 
-INSERT INTO xls.objects (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES (N's05', N'view_orders', N'VIEW', N'', N's05.orders', N's05.orders', N's05.orders');
+INSERT INTO xls.objects (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES (N's05', N'view_orders', N'VIEW', NULL, N's05.orders', N's05.orders', N's05.orders');
 GO
 
-INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's05', N'brands', N'brand', N'en', N'Brand', N'', N'');
+INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's05', N'brands', N'brand', N'en', N'Brand', NULL, NULL);
 INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's05', N'brands', N'id', N'en', N'ID', NULL, NULL);
 INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's05', N'Create Invoice PDF', NULL, N'en', N'Create Invoice PDF', NULL, NULL);
 INSERT INTO xls.translations (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, LANGUAGE_NAME, TRANSLATED_NAME, TRANSLATED_DESC, TRANSLATED_COMMENT) VALUES (N's05', N'Create Invoice XLSX', NULL, N'en', N'Create Invoice XLSX', NULL, NULL);

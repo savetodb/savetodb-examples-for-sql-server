@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 24 - Advanced JSON Features
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2021-2022 Gartle LLC
+-- Copyright 2021-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -966,27 +966,27 @@ SET IDENTITY_INSERT s24.items OFF;
 GO
 
 SET IDENTITY_INSERT s24.cashbook ON;
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (1, '20220110', 1, 1, 1, 200000, NULL);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (2, '20220110', 1, 2, 8, NULL, 50000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (3, '20220131', 1, 3, NULL, NULL, 85000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (4, '20220131', 1, 4, 16, NULL, 15000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (5, '20220131', 1, 4, 17, NULL, 15000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (6, '20220210', 1, 1, 1, 300000, NULL);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (7, '20220210', 1, 1, 2, 100000, NULL);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (8, '20220210', 1, 2, 9, NULL, 50000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (9, '20220210', 1, 2, 8, NULL, 100000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (10, '20220228', 1, 3, NULL, NULL, 85000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (11, '20220228', 1, 4, 16, NULL, 15000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (12, '20220228', 1, 4, 17, NULL, 15000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (13, '20220310', 1, 1, 1, 300000, NULL);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (14, '20220310', 1, 1, 2, 200000, NULL);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (15, '20220310', 1, 1, 3, 100000, NULL);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (16, '20220315', 1, 4, 15, NULL, 100000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (17, '20220331', 1, 3, NULL, NULL, 170000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (18, '20220331', 1, 4, 16, NULL, 30000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (19, '20220331', 1, 4, 17, NULL, 30000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (20, '20220331', 1, 2, 9, NULL, 50000);
-INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (21, '20220331', 1, 2, 8, NULL, 100000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (1, '20230110', 1, 1, 1, 200000, NULL);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (2, '20230110', 1, 2, 8, NULL, 50000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (3, '20230131', 1, 3, NULL, NULL, 85000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (4, '20230131', 1, 4, 16, NULL, 15000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (5, '20230131', 1, 4, 17, NULL, 15000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (6, '20230210', 1, 1, 1, 300000, NULL);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (7, '20230210', 1, 1, 2, 100000, NULL);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (8, '20230210', 1, 2, 9, NULL, 50000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (9, '20230210', 1, 2, 8, NULL, 100000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (10, '20230228', 1, 3, NULL, NULL, 85000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (11, '20230228', 1, 4, 16, NULL, 15000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (12, '20230228', 1, 4, 17, NULL, 15000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (13, '20230310', 1, 1, 1, 300000, NULL);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (14, '20230310', 1, 1, 2, 200000, NULL);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (15, '20230310', 1, 1, 3, 100000, NULL);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (16, '20230315', 1, 4, 15, NULL, 100000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (17, '20230331', 1, 3, NULL, NULL, 170000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (18, '20230331', 1, 4, 16, NULL, 30000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (19, '20230331', 1, 4, 17, NULL, 30000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (20, '20230331', 1, 2, 9, NULL, 50000);
+INSERT INTO s24.cashbook (id, date, account_id, item_id, company_id, debit, credit) VALUES (21, '20230331', 1, 2, 8, NULL, 100000);
 SET IDENTITY_INSERT s24.cashbook OFF;
 GO
 

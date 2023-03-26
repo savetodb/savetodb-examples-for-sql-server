@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 21 - Tab Framework
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2021-2022 Gartle LLC
+-- Copyright 2021-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -100,27 +100,27 @@ INSERT INTO tab.cells (row_id, column_id, value) VALUES (16, 7, N'Supplier S4');
 INSERT INTO tab.cells (row_id, column_id, value) VALUES (17, 7, N'Supplier S5');
 INSERT INTO tab.cells (row_id, column_id, value) VALUES (18, 7, N'Supplier S6');
 INSERT INTO tab.cells (row_id, column_id, value) VALUES (19, 7, N'Supplier S7');
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (23, 12, CAST('2022-01-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (24, 12, CAST('2022-01-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (25, 12, CAST('2022-01-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (26, 12, CAST('2022-01-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (27, 12, CAST('2022-01-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (28, 12, CAST('2022-02-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (29, 12, CAST('2022-02-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (30, 12, CAST('2022-02-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (31, 12, CAST('2022-02-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (32, 12, CAST('2022-02-28' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (33, 12, CAST('2022-02-28' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (34, 12, CAST('2022-02-28' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (35, 12, CAST('2022-03-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (36, 12, CAST('2022-03-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (37, 12, CAST('2022-03-10' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (38, 12, CAST('2022-03-15' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (39, 12, CAST('2022-03-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (40, 12, CAST('2022-03-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (41, 12, CAST('2022-03-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (42, 12, CAST('2022-03-31' AS date));
-INSERT INTO tab.cells (row_id, column_id, value) VALUES (43, 12, CAST('2022-03-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (23, 12, CAST('2023-01-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (24, 12, CAST('2023-01-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (25, 12, CAST('2023-01-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (26, 12, CAST('2023-01-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (27, 12, CAST('2023-01-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (28, 12, CAST('2023-02-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (29, 12, CAST('2023-02-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (30, 12, CAST('2023-02-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (31, 12, CAST('2023-02-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (32, 12, CAST('2023-02-28' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (33, 12, CAST('2023-02-28' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (34, 12, CAST('2023-02-28' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (35, 12, CAST('2023-03-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (36, 12, CAST('2023-03-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (37, 12, CAST('2023-03-10' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (38, 12, CAST('2023-03-15' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (39, 12, CAST('2023-03-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (40, 12, CAST('2023-03-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (41, 12, CAST('2023-03-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (42, 12, CAST('2023-03-31' AS date));
+INSERT INTO tab.cells (row_id, column_id, value) VALUES (43, 12, CAST('2023-03-31' AS date));
 INSERT INTO tab.cells (row_id, column_id, value) VALUES (23, 13, CAST(1 AS int));
 INSERT INTO tab.cells (row_id, column_id, value) VALUES (24, 13, CAST(1 AS int));
 INSERT INTO tab.cells (row_id, column_id, value) VALUES (25, 13, CAST(1 AS int));
