@@ -1,11 +1,11 @@
 -- =============================================
 -- SaveToDB Framework for Microsoft SQL Server
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
 -- This code removes SaveToDB Administrator Framework and SaveToDB Developer Framework also
 -- as the frameworks require SaveToDB Framework.
 --
--- Copyright 2011-2023 Gartle LLC
+-- Copyright 2011-2024 Gartle LLC
 --
 -- License: MIT
 -- =============================================

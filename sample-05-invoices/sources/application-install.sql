@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 05 - Invoices
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2018-2023 Gartle LLC
+-- Copyright 2018-2024 Gartle LLC
 --
 -- License: MIT
 --
@@ -1479,9 +1479,9 @@ SET IDENTITY_INSERT s05.products OFF;
 GO
 
 SET IDENTITY_INSERT s05.orders ON;
-INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (1, '20230221', N'23022101', 1, 2, '20230323', NULL, NULL);
-INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (2, '20230221', N'23022102', 1, 2, '20230323', NULL, NULL);
-INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (3, '20230221', N'23022103', 1, 1, '20230323', NULL, NULL);
+INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (1, '20240221', N'24022101', 1, 2, '20240323', NULL, NULL);
+INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (2, '20240221', N'24022102', 1, 2, '20240323', NULL, NULL);
+INSERT INTO s05.orders (id, order_date, order_number, seller_id, customer_id, expiration_date, delivery_date, due_date) VALUES (3, '20240221', N'24022103', 1, 1, '20240323', NULL, NULL);
 SET IDENTITY_INSERT s05.orders OFF;
 GO
 

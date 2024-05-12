@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 03 - Budgeting Example
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2019-2023 Gartle LLC
+-- Copyright 2019-2024 Gartle LLC
 --
 -- License: MIT
 --
@@ -1213,9 +1213,9 @@ SET IDENTITY_INSERT [s03].[members] ON;
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (1, 3, N'BUDGET', N'Budget');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (2, 3, N'ACTUAL', N'Actual');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (3, 3, N'FORECAST', N'Forecast');
-INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (4, 2, N'2022', N'2022');
-INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (5, 2, N'2023', N'2023');
-INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (6, 2, N'2024', N'2024');
+INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (4, 2, N'2023', N'2023');
+INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (5, 2, N'2024', N'2024');
+INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (6, 2, N'2025', N'2025');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (7, 1, N'100', N'Revenue');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (8, 1, N'200', N'Expenses');
 INSERT INTO [s03].[members] ([id], [dimension_id], [code], [name]) VALUES (9, 1, N'300', N'Payroll');

@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 17 - Budget Request
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2019-2023 Gartle LLC
+-- Copyright 2019-2024 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -909,9 +909,9 @@ SET IDENTITY_INSERT [s17].[subaccounts] OFF;
 GO
 
 SET IDENTITY_INSERT [s17].[times] ON;
-INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (1, N'2022', N'2022', 1);
-INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (2, N'2023', N'2023', 2);
-INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (3, N'2024', N'2024', 3);
+INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (1, N'2023', N'2023', 1);
+INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (2, N'2024', N'2024', 2);
+INSERT INTO [s17].[times] ([id], [code], [name], [sort_order]) VALUES (3, N'2025', N'2025', 3);
 SET IDENTITY_INSERT [s17].[times] OFF;
 GO
 

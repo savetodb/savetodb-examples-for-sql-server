@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 06 - Dynamic Lists
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2018-2023 Gartle LLC
+-- Copyright 2018-2024 Gartle LLC
 --
 -- License: MIT
 --
@@ -152,8 +152,8 @@ INSERT INTO s06.states (code, country_id, state, capital) VALUES (N'YT', 2, N'Yu
 GO
 
 SET IDENTITY_INSERT s06.data ON;
-INSERT INTO s06.data (id, country_id, state_code, period, value) VALUES (1, 1, N'AK', '20230331', 100);
-INSERT INTO s06.data (id, country_id, state_code, period, value) VALUES (2, 2, N'AB', '20230331', 100);
+INSERT INTO s06.data (id, country_id, state_code, period, value) VALUES (1, 1, N'AK', '20240331', 100);
+INSERT INTO s06.data (id, country_id, state_code, period, value) VALUES (2, 2, N'AB', '20240331', 100);
 SET IDENTITY_INSERT s06.data OFF;
 GO
 

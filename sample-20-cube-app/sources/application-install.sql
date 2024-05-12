@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 20 - Cube App
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2020-2023 Gartle LLC
+-- Copyright 2020-2024 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -735,30 +735,30 @@ INSERT INTO s20.permissions (id, code, name) VALUES (2, N'W', N'Write');
 GO
 
 SET IDENTITY_INSERT s20.times ON;
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (1, N'2022-01', N'2022-01', 2022, N'01');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (2, N'2022-02', N'2022-02', 2022, N'02');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (3, N'2022-03', N'2022-03', 2022, N'03');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (4, N'2022-04', N'2022-04', 2022, N'04');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (5, N'2022-05', N'2022-05', 2022, N'05');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (6, N'2022-06', N'2022-06', 2022, N'06');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (7, N'2022-07', N'2022-07', 2022, N'07');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (8, N'2022-08', N'2022-08', 2022, N'08');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (9, N'2022-09', N'2022-09', 2022, N'09');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (10, N'2022-10', N'2022-10', 2022, N'10');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (11, N'2022-11', N'2022-11', 2022, N'11');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (12, N'2022-12', N'2022-12', 2022, N'12');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (13, N'2023-01', N'2023-01', 2023, N'01');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (14, N'2023-02', N'2023-02', 2023, N'02');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (15, N'2023-03', N'2023-03', 2023, N'03');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (16, N'2023-04', N'2023-04', 2023, N'04');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (17, N'2023-05', N'2023-05', 2023, N'05');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (18, N'2023-06', N'2023-06', 2023, N'06');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (19, N'2023-07', N'2023-07', 2023, N'07');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (20, N'2023-08', N'2023-08', 2023, N'08');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (21, N'2023-09', N'2023-09', 2023, N'09');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (22, N'2023-10', N'2023-10', 2023, N'10');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (23, N'2023-11', N'2023-11', 2023, N'11');
-INSERT INTO s20.times (id, code, name, year, column_name) VALUES (24, N'2023-12', N'2023-12', 2023, N'12');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (1, N'2023-01', N'2023-01', 2023, N'01');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (2, N'2023-02', N'2023-02', 2023, N'02');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (3, N'2023-03', N'2023-03', 2023, N'03');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (4, N'2023-04', N'2023-04', 2023, N'04');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (5, N'2023-05', N'2023-05', 2023, N'05');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (6, N'2023-06', N'2023-06', 2023, N'06');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (7, N'2023-07', N'2023-07', 2023, N'07');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (8, N'2023-08', N'2023-08', 2023, N'08');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (9, N'2023-09', N'2023-09', 2023, N'09');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (10, N'2023-10', N'2023-10', 2023, N'10');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (11, N'2023-11', N'2023-11', 2023, N'11');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (12, N'2023-12', N'2023-12', 2023, N'12');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (13, N'2024-01', N'2024-01', 2024, N'01');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (14, N'2024-02', N'2024-02', 2024, N'02');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (15, N'2024-03', N'2024-03', 2024, N'03');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (16, N'2024-04', N'2024-04', 2024, N'04');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (17, N'2024-05', N'2024-05', 2024, N'05');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (18, N'2024-06', N'2024-06', 2024, N'06');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (19, N'2024-07', N'2024-07', 2024, N'07');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (20, N'2024-08', N'2024-08', 2024, N'08');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (21, N'2024-09', N'2024-09', 2024, N'09');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (22, N'2024-10', N'2024-10', 2024, N'10');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (23, N'2024-11', N'2024-11', 2024, N'11');
+INSERT INTO s20.times (id, code, name, year, column_name) VALUES (24, N'2024-12', N'2024-12', 2024, N'12');
 SET IDENTITY_INSERT s20.times OFF;
 GO
 
@@ -1374,7 +1374,7 @@ INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HAN
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's20', N'usp_web_form_01', NULL, N'JsonForm', NULL, NULL, N'ATTRIBUTE', NULL, NULL, NULL, NULL);
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's20', N'usp_form_01', N'category_id', N'ParameterValues', N's20', N'xl_list_category_id', N'VIEW', NULL, N'_NotNull', NULL, NULL);
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's20', N'usp_form_01', N'entity_id', N'ParameterValues', N's20', N'xl_list_entity_id', N'VIEW', NULL, N'_NotNull', NULL, NULL);
-INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's20', N'usp_form_01', N'year', N'ParameterValues', NULL, NULL, N'VALUES', N'2022,2023', N'_NotNull', NULL, NULL);
+INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES (N's20', N'usp_form_01', N'year', N'ParameterValues', NULL, NULL, N'VALUES', N'2023,2024', N'_NotNull', NULL, NULL);
 GO
 
 print 'Application installed';

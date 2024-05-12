@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 01 - Basic SaveToDB Features
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2011-2023 Gartle LLC
+-- Copyright 2011-2024 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -640,27 +640,27 @@ END
 GO
 
 SET IDENTITY_INSERT s01.cashbook ON;
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (1, '20230110', N'Bank', N'Revenue', N'Customer C1', 200000, NULL);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (2, '20230110', N'Bank', N'Expenses', N'Supplier S1', NULL, 50000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (3, '20230131', N'Bank', N'Payroll', NULL, NULL, 85000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (4, '20230131', N'Bank', N'Taxes', N'Individual Income Tax', NULL, 15000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (5, '20230131', N'Bank', N'Taxes', N'Payroll Taxes', NULL, 15000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (6, '20230210', N'Bank', N'Revenue', N'Customer C1', 300000, NULL);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (7, '20230210', N'Bank', N'Revenue', N'Customer C2', 100000, NULL);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (8, '20230210', N'Bank', N'Expenses', N'Supplier S1', NULL, 100000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (9, '20230210', N'Bank', N'Expenses', N'Supplier S2', NULL, 50000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (10, '20230228', N'Bank', N'Payroll', NULL, NULL, 85000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (11, '20230228', N'Bank', N'Taxes', N'Individual Income Tax', NULL, 15000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (12, '20230228', N'Bank', N'Taxes', N'Payroll Taxes', NULL, 15000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (13, '20230310', N'Bank', N'Revenue', N'Customer C1', 300000, NULL);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (14, '20230310', N'Bank', N'Revenue', N'Customer C2', 200000, NULL);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (15, '20230310', N'Bank', N'Revenue', N'Customer C3', 100000, NULL);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (16, '20230315', N'Bank', N'Taxes', N'Corporate Income Tax', NULL, 100000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (17, '20230331', N'Bank', N'Payroll', NULL, NULL, 170000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (18, '20230331', N'Bank', N'Taxes', N'Individual Income Tax', NULL, 30000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (19, '20230331', N'Bank', N'Taxes', N'Payroll Taxes', NULL, 30000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (20, '20230331', N'Bank', N'Expenses', N'Supplier S1', NULL, 100000);
-INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (21, '20230331', N'Bank', N'Expenses', N'Supplier S2', NULL, 50000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (1, '20240110', N'Bank', N'Revenue', N'Customer C1', 200000, NULL);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (2, '20240110', N'Bank', N'Expenses', N'Supplier S1', NULL, 50000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (3, '20240131', N'Bank', N'Payroll', NULL, NULL, 85000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (4, '20240131', N'Bank', N'Taxes', N'Individual Income Tax', NULL, 15000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (5, '20240131', N'Bank', N'Taxes', N'Payroll Taxes', NULL, 15000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (6, '20240210', N'Bank', N'Revenue', N'Customer C1', 300000, NULL);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (7, '20240210', N'Bank', N'Revenue', N'Customer C2', 100000, NULL);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (8, '20240210', N'Bank', N'Expenses', N'Supplier S1', NULL, 100000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (9, '20240210', N'Bank', N'Expenses', N'Supplier S2', NULL, 50000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (10, '20240228', N'Bank', N'Payroll', NULL, NULL, 85000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (11, '20240228', N'Bank', N'Taxes', N'Individual Income Tax', NULL, 15000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (12, '20240228', N'Bank', N'Taxes', N'Payroll Taxes', NULL, 15000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (13, '20240310', N'Bank', N'Revenue', N'Customer C1', 300000, NULL);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (14, '20240310', N'Bank', N'Revenue', N'Customer C2', 200000, NULL);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (15, '20240310', N'Bank', N'Revenue', N'Customer C3', 100000, NULL);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (16, '20240315', N'Bank', N'Taxes', N'Corporate Income Tax', NULL, 100000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (17, '20240331', N'Bank', N'Payroll', NULL, NULL, 170000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (18, '20240331', N'Bank', N'Taxes', N'Individual Income Tax', NULL, 30000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (19, '20240331', N'Bank', N'Taxes', N'Payroll Taxes', NULL, 30000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (20, '20240331', N'Bank', N'Expenses', N'Supplier S1', NULL, 100000);
+INSERT INTO s01.cashbook (id, date, account, item, company, debit, credit) VALUES (21, '20240331', N'Bank', N'Expenses', N'Supplier S2', NULL, 50000);
 SET IDENTITY_INSERT s01.cashbook OFF;
 GO
 

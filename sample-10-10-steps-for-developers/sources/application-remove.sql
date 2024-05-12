@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 10 - 10 Steps for Developers
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2019-2023 Sergey Vaselenko
+-- Copyright 2019-2024 Sergey Vaselenko
 --
 -- License: MIT
 -- =============================================

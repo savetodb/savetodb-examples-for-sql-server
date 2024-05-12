@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 11 - 11 Steps for Advanced Users
--- Version 10.8, January 9, 2023
+-- Version 10.13, April 29, 2024
 --
--- Copyright 2019-2023 Sergey Vaselenko
+-- Copyright 2019-2024 Sergey Vaselenko
 --
 -- License: MIT
 -- =============================================
@@ -99,27 +99,27 @@ SET IDENTITY_INSERT [s11].[handlers] OFF;
 GO
 
 SET IDENTITY_INSERT [s11].[Payments] ON;
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (1, '20230110 00:00:00.000', 200000, N'Bank', N'Revenue', N'Customer C1', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (2, '20230110 00:00:00.000', -50000, N'Bank', N'Expenses', N'Supplier S1', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (3, '20230131 00:00:00.000', -85000, N'Bank', N'Payroll', NULL, NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (4, '20230131 00:00:00.000', -15000, N'Bank', N'Taxes', N'Individual Income Tax', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (5, '20230131 00:00:00.000', -15000, N'Bank', N'Taxes', N'Payroll Taxes', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (6, '20230210 00:00:00.000', 300000, N'Bank', N'Revenue', N'Customer C1', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (7, '20230210 00:00:00.000', 100000, N'Bank', N'Revenue', N'Customer C2', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (8, '20230210 00:00:00.000', -50000, N'Bank', N'Expenses', N'Supplier S2', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (9, '20230210 00:00:00.000', -100000, N'Bank', N'Expenses', N'Supplier S1', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (10, '20230228 00:00:00.000', -85000, N'Bank', N'Payroll', NULL, NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (11, '20230228 00:00:00.000', -15000, N'Bank', N'Taxes', N'Individual Income Tax', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (12, '20230228 00:00:00.000', -15000, N'Bank', N'Taxes', N'Payroll Taxes', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (13, '20230310 00:00:00.000', 300000, N'Bank', N'Revenue', N'Customer C1', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (14, '20230310 00:00:00.000', 200000, N'Bank', N'Revenue', N'Customer C2', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (15, '20230310 00:00:00.000', 100000, N'Bank', N'Revenue', N'Customer C3', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (16, '20230315 00:00:00.000', -100000, N'Bank', N'Taxes', N'Corporate Income Tax', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (17, '20230331 00:00:00.000', -170000, N'Bank', N'Payroll', NULL, NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (18, '20230331 00:00:00.000', -30000, N'Bank', N'Taxes', N'Individual Income Tax', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (19, '20230331 00:00:00.000', -30000, N'Bank', N'Taxes', N'Payroll Taxes', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (20, '20230331 00:00:00.000', -50000, N'Bank', N'Expenses', N'Supplier S2', NULL);
-INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (21, '20230331 00:00:00.000', -100000, N'Bank', N'Expenses', N'Supplier S1', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (1, '20240110 00:00:00.000', 200000, N'Bank', N'Revenue', N'Customer C1', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (2, '20240110 00:00:00.000', -50000, N'Bank', N'Expenses', N'Supplier S1', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (3, '20240131 00:00:00.000', -85000, N'Bank', N'Payroll', NULL, NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (4, '20240131 00:00:00.000', -15000, N'Bank', N'Taxes', N'Individual Income Tax', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (5, '20240131 00:00:00.000', -15000, N'Bank', N'Taxes', N'Payroll Taxes', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (6, '20240210 00:00:00.000', 300000, N'Bank', N'Revenue', N'Customer C1', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (7, '20240210 00:00:00.000', 100000, N'Bank', N'Revenue', N'Customer C2', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (8, '20240210 00:00:00.000', -50000, N'Bank', N'Expenses', N'Supplier S2', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (9, '20240210 00:00:00.000', -100000, N'Bank', N'Expenses', N'Supplier S1', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (10, '20240228 00:00:00.000', -85000, N'Bank', N'Payroll', NULL, NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (11, '20240228 00:00:00.000', -15000, N'Bank', N'Taxes', N'Individual Income Tax', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (12, '20240228 00:00:00.000', -15000, N'Bank', N'Taxes', N'Payroll Taxes', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (13, '20240310 00:00:00.000', 300000, N'Bank', N'Revenue', N'Customer C1', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (14, '20240310 00:00:00.000', 200000, N'Bank', N'Revenue', N'Customer C2', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (15, '20240310 00:00:00.000', 100000, N'Bank', N'Revenue', N'Customer C3', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (16, '20240315 00:00:00.000', -100000, N'Bank', N'Taxes', N'Corporate Income Tax', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (17, '20240331 00:00:00.000', -170000, N'Bank', N'Payroll', NULL, NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (18, '20240331 00:00:00.000', -30000, N'Bank', N'Taxes', N'Individual Income Tax', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (19, '20240331 00:00:00.000', -30000, N'Bank', N'Taxes', N'Payroll Taxes', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (20, '20240331 00:00:00.000', -50000, N'Bank', N'Expenses', N'Supplier S2', NULL);
+INSERT INTO [s11].[Payments] ([ID], [Date], [Amount], [Account], [Item], [Company], [Comment]) VALUES (21, '20240331 00:00:00.000', -100000, N'Bank', N'Expenses', N'Supplier S1', NULL);
 SET IDENTITY_INSERT [s11].[Payments] OFF;
 GO
 
